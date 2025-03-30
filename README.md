@@ -1,7 +1,16 @@
 # KubeCon 2025 Gradio + YOLOv11 GPU Inference demo
 
+Introduction
 
-Currently the demo is not containerised, but to test:
+A container to show GPU inferencing. Utilising Gradio with webRTC and YOLO to show real-time object detection.
+
+
+To build the docker image:
+```
+./build.sh
+```
+
+To quickly test:
 
 ```
 python app.py
